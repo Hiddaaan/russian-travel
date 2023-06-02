@@ -1,0 +1,13 @@
+.lang-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  line-height: 28px;
+}
+
+.lang-link__active {
+  border-bottom: #FFFFFF solid 1px;
+}
+
+.lang-link:hover {
+  opacity: .8;
+}
