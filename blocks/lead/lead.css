@@ -2,29 +2,14 @@
   margin: 56px 148px 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .lead {
-    max-width: none;
+    margin: 48px 48px 0;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead {
-    max-width: 928px;
-    max-height: 962px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    max-width: 768px;
-    max-height: 862px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header {
-    max-width: 320px;
-    max-height: 406px;
+    margin: 48px 0 0;
   }
 }
