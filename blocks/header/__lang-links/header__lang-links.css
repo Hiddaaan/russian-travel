@@ -1,5 +1,4 @@
-.lang-links {
+.header__lang-links {
   display: flex;
   column-gap: 18px;
 }
-

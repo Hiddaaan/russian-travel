@@ -11,13 +11,12 @@
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
-<body>
-<div class="page">
+<body class="page">
   <header class="header">
     <div class="logo"></div>
-    <div class="lang-links">
-      <a href="#" class="lang-link lang-link_active">Ru</a>
-      <a href="#" class="lang-link">En</a>
+    <div class="header__lang-links">
+      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+      <a href="#" class="header__lang-link">En</a>
     </div>
   </header>
   <main class="content">
@@ -44,11 +43,11 @@
         достойные вашего отпуска.
       </p>
       <ul class="intro__list">
-        <li class="intro__list-item">Часовых поясов <span class="intro__list-item_number">11</span></li>
-        <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-item_number">12</span></li>
-        <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-item_number">16</span></li>
-        <li class="intro__list-item">Природных заповедников <span class="intro__list-item_number">105</span></li>
-        <li class="intro__list-item">Аэропортов <span class="intro__list-item_number">241</span></li>
+        <li class="intro__list-item">Часовых поясов <span class="intro__list-item-number">11</span></li>
+        <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-item-number">12</span></li>
+        <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-item-number">16</span></li>
+        <li class="intro__list-item">Природных заповедников <span class="intro__list-item-number">105</span></li>
+        <li class="intro__list-item">Аэропортов <span class="intro__list-item-number">241</span></li>
       </ul>
     </section>
     <section class="photo-grid">
@@ -169,13 +168,10 @@
       </div>
     </section>
     <section class="cover">
-      <div class="cover__overlay">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        </a>
-      </div>
-      <img src="./images/cover__background.jpg" alt="Депо" class="cover__background">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на&nbsp;электричках.</p>
+      </a>
     </section>
     <footer class="footer">
       <nav class="footer__links">
@@ -188,6 +184,5 @@
       <p class="footer__copyright">&copy; 2023. Hiddaaan</p>
     </footer>
   </main>
-</div>
 </body>
 </html>
